@@ -1,7 +1,7 @@
 #thumbnail {
   position: fixed;
-  width: 100px;
-  height: 100px;
+ /* width: 100px;
+  height: 100px;*/
   overflow: hidden;
   margin-top: 10px;
   margin-left: 10px;
