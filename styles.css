@@ -1,37 +1,63 @@
-body {
-	background: gray;
+#thumbnail {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 10px;
+
 }
-.table {
-	padding-left:20px; 
-	padding-right:5px;
-	padding-top:10px; 
-	padding-bottom:15px;
-	margin: 10px;
-	border:5px black;
-}
+
 header {
-	text-align: center;
 	font-family: cursive;
-	font-size: 30px;
-	font-weight: bold;
+	color: navy;
+	margin-top: 200px;
+	margin-left: 10px;
 }
-footer {
+
+p {
 	font-family: helvetica;
-	font-size: 15px;
+
 }
-#closer {
-	font-family: helvetica;
-	font-size: 15px;
-	float: left;
+
+body {
+    background: gray;
+	margin-left: 50px; 
+	margin-right:50px;
 }
-a : visted {
-	color: red;
+
+#p1 {
+
+	border-style: solid;
+	border-color: white;
+	margin-left: 50px; 
+	margin-right:50px;
 }
-div {
-	float: left;
+
+.p2 {
+	border-style: solid;
+	border-color: white;
+	margin-left: 50px; 
+	margin-right:50px;
 }
-@media screen and (max-width: 500px) {
-  body {
-    background-color: navy;
-  }
+
+.p3 {
+	border-style: solid;
+	border-color: green;
+	margin-left: 50px; 
+	margin-right:50px;
+}
+
+.left {
+    width: 178px;
+    float:left;
+}
+.main {
+  margin-left:178px;
+ }
+
+ #list {
+ 	margin-left: 10px;
+ }
+
 
