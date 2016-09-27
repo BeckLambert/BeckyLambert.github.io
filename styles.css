@@ -1,21 +1,4 @@
-#thumbnail {
-  position: fixed;
-  float: left;
- /* width: 100px;
-  height: 100px;*/
-  /*overflow: hidden;*/
-  margin-top: 10px;
-  margin-left: -70px;
 
-
-}
-
-header {
-	font-family: cursive;
-	color: navy;
-	margin-top: 200px;
-	margin-left: 10px;
-}
 
 p {
 	font-family: helvetica;
@@ -23,48 +6,63 @@ p {
 }
 
 body {
-    background: gray;
-	margin-left: 50px; 
-	margin-right:50px;
+   height:100%;
+   width:100%;
+   background-image:url(copperfall.jpg);/*background image*/  
+   background-repeat:no-repeat;/*one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/     
 }
 
-#p1 {
-
-	border-style: solid;
-	border-color: white;
-	margin-left: 50px; 
-	margin-right:50px;
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; opacity: 0.7; filter: alpha(opacity=50);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-.p2 {
-	border-style: solid;
-	border-color: white;
-	margin-left: 50px; 
-	margin-right:50px;
+li {
+    float: left;
 }
 
-.frisco {
-	float: center;
-	margin-bottom: 100px;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-/*.p3 {
-	border-style: solid;
-	border-color: green;
-	margin-left: 50px; 
-	margin-right:50px;
-}*/
-
-.left {
-    width: 178px;
-    float:left;
+/* Change the link color to black on hover */
+li a:hover {
+    background-color: #111;
 }
-.main {
-  margin-left:178px;
- }
 
- #list {
+
+/* css code from original plan:
+
+/*#list {
  	margin-left: 10px;
  }
+*/
 
+/*#thumbnail {
+  position: fixed;
+  float: left;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: -70px;
+}*/
+
+/*header {
+	font-family: cursive;
+	color: navy;
+	margin-top: 200px;
+	margin-left: 10px;
+}*/
 
