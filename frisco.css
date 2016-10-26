@@ -8,7 +8,10 @@ h1 {
     color: DarkBlue;
 }
 
-
+#p2 {
+    font-family: helvetica;
+    font-style: bold;
+}
 
 
 ul.navbar {
@@ -35,7 +38,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to black on hover */
 li a:hover {
     background-color: #111;
 }
