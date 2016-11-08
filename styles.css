@@ -6,6 +6,7 @@ p {
 }
 
 body {
+   margin:auto;
    height:100%;
    width:100%;
    background-image:url(copperfall.jpg);/*background image*/  
@@ -43,12 +44,6 @@ li a:hover {
 
 
 /* css code from original plan:
-
-/*#list {
- 	margin-left: 10px;
- }
-*/
-
 /*#thumbnail {
   position: fixed;
   float: left;
@@ -57,12 +52,5 @@ li a:hover {
   overflow: hidden;
   margin-top: 10px;
   margin-left: -70px;
-}*/
-
-/*header {
-	font-family: cursive;
-	color: navy;
-	margin-top: 200px;
-	margin-left: 10px;
 }*/
 
