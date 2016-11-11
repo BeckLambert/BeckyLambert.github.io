@@ -1,22 +1,133 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>The Mountains Are Calling</title>
 
-<link rel="stylesheet" href="styles.css" type="text/css">
-<div class="left">
+        <!-- load stylesheets -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400">  <!-- Google web font -->                                      
+        <link rel="stylesheet" href="css/flexslider.css">  <!-- Flexslider style -->       
+        <link rel="stylesheet" href="css/style.css">  <!-- style sheet -->
+    </head>
+    
+    <body class="page">
 
-<nav>
-  <ul>
-     <li><a href="http://www.coppercolorado.com">The Mountain</a></li>
-     <li><a href="frisco.html">The Town</a></li>
-     <li><a href="snowboard.html">The Ride</a></li>
-</nav>
+            <!-- background images -->
+            <div class="page-bg-imgs-list">
+                <img src="img/about.jpg" id="page-1-img" class="main-img" alt="About">
+                <img src="img/frisco.jpg" id="page-2-img" alt="Frisco">                          
+            </div>
+            
+            <div class="container-fluid">
 
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                        
+                        <div class="header">
 
-    <nav>
-  </footer>
-  </div>
-</body>
+                            <!-- site title -->
+                            <header class="box box-white">
+                                <a href="javascript:void(0)" class="js-site-title">
+                                    <h1 class="box-text site-title-text">My Story</h1>    
+                                </a>            
+                            </header>
+                            
+                            <!-- site navigation -->
+                            <nav class="js-nav">
+                                <ul class="nav-items-container">
+
+                                    <li data-nav-item-id="page-1" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-left">
+                                        <a href="#page-1" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">About</span>
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-item-id="page-2" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-right">
+                                        <a href="#page-2" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">Summit County</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>    
+                        </div> <!-- .header -->
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                        <div class="content-wrapper js-content-wrapper">
+                            
+                            <!-- about -->
+                            <section data-page-id="page-1" class="content js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">About the developer</h2>
+                                </header>
+                                
+                                <div class="content-text">
+                                    <p> My name is Becky Lambert, I had the pleasure of living in Summit County (which some like to refer to as the real life Neverland) for seven years and I wanted to create something that showed off how much I love it. After trying several different layouts and ideas that I ended up not liking. I decided to go with the saying "pictures are worth a thousand words".
+                                    </p>
+                                    <p> This website is here simply to show off the beauties that I've been able to see and enjoy throughout my time in this county. As you can imagine I've taken hundreds and hundreds of pictures. These galleries are just a few of my favorites. I hope you enjoy them as much as I do! 
+                                    </p>
+                                </div>            
+
+                            </section> <!-- #about -->
+
+                            <!-- summit county -->
+                            <section data-page-id="page-2" class="content content-gallery js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">Summit County</h2>
+                                </header>
+                                
+                                <div class="content-text content-text-gallery">
+                                    
+
+                                    <div class="flexslider-wrapper">
+
+                                        <div id="slider" class="flexslider">
+                                            <ul class="slides">
+                                                <li><img src="img/slider/slide1.jpg" alt="Slide 1" /></li>
+                                                <li><img src="img/slider/slide2.jpg" alt="Slide 2" /></li>
+                                                <li><img src="img/slider/slide3.jpg" alt="Slide 3" /></li>
+                                                <li><img src="img/slider/slide4.jpg" alt="Slide 4" /></li>
+                                                <li><img src="img/slider/slide5.jpg" alt="Slide 5" /></li>
+                                                <li><img src="img/slider/slide6.jpg" alt="Slide 6" /></li>
+                                            </ul>
+                                        </div> <!-- #slider -->
+                                      
+                                        <div id="carousel" class="flexslider">
+                                            <ul class="slides">
+                                                <li><img src="img/slider/thumb1.jpg" alt="Thumbnail 1" /></li>
+                                                <li><img src="img/slider/thumb2.jpg" alt="Thumbnail 2" /></li>
+                                                <li><img src="img/slider/thumb3.jpg" alt="Thumbnail 3" /></li>
+                                                <li><img src="img/slider/thumb4.jpg" alt="Thumbnail 4" /></li>
+                                                <li><img src="img/slider/thumb5.jpg" alt="Thumbnail 5" /></li>
+                                                <li><img src="img/slider/thumb6.jpg" alt="Thumbnail 6" /></li>
+                                            </ul>
+                                        </div>  <!-- #carousel -->
+
+                                    </div>
+                                        
+                                </div>            
+
+                            </section> <!-- #Summit County -->
+                    
+
+            </div>  
+
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div> --><!-- /#preloader      
+            
+        <!- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script> <!-- jQuery -->
+        <script src="js/jquery.flexslider-min.js"></script> <!-- Flex Slider -->
+        <script src="js/jquery.backstretch.min.js"></script> <!-- Backstretch -->
+        <script src="js/script.js"></script> <!-- script -->
+    
+    </body>
+
 </html>
